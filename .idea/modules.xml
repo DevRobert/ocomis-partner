@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ocomis-partner.iml" filepath="$PROJECT_DIR$/.idea/ocomis-partner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ocomis-partner-api.iml" filepath="$PROJECT_DIR$/.idea/modules/ocomis-partner-api.iml" group="ocomis-partner-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ocomis-partner-api/ocomis-partner-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ocomis-partner-api/ocomis-partner-api_main.iml" group="ocomis-partner-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ocomis-partner-api/ocomis-partner-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ocomis-partner-api/ocomis-partner-api_test.iml" group="ocomis-partner-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ocomis-partner-domain.iml" filepath="$PROJECT_DIR$/.idea/modules/ocomis-partner-domain.iml" group="ocomis-partner-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ocomis-partner-domain/ocomis-partner-domain_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ocomis-partner-domain/ocomis-partner-domain_main.iml" group="ocomis-partner-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ocomis-partner-domain/ocomis-partner-domain_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ocomis-partner-domain/ocomis-partner-domain_test.iml" group="ocomis-partner-domain" />
+    </modules>
+  </component>
+</project>
