@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Hello from the Build!'
+        sh 'chmod +x gradlew'
         sh './gradlew build'
       }
     }
