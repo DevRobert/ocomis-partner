@@ -14,5 +14,6 @@ repositories {
 dependencies {
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.4.1.RELEASE'
     compile project(":ocomis-partner-domain")
+    compile project(":ocomis-partner-infrastructure")
     testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '1.4.1.RELEASE'
 }

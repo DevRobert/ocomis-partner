@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ocomis-partner-domain.iml" filepath="$PROJECT_DIR$/.idea/modules/ocomis-partner-domain.iml" group="ocomis-partner-domain" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ocomis-partner-domain/ocomis-partner-domain_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ocomis-partner-domain/ocomis-partner-domain_main.iml" group="ocomis-partner-domain" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ocomis-partner-domain/ocomis-partner-domain_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ocomis-partner-domain/ocomis-partner-domain_test.iml" group="ocomis-partner-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ocomis-partner-infrastructure.iml" filepath="$PROJECT_DIR$/.idea/modules/ocomis-partner-infrastructure.iml" group="ocomis-partner-infrastructure" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ocomis-partner-infrastructure/ocomis-partner-infrastructure_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ocomis-partner-infrastructure/ocomis-partner-infrastructure_main.iml" group="ocomis-partner-infrastructure" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ocomis-partner-infrastructure/ocomis-partner-infrastructure_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ocomis-partner-infrastructure/ocomis-partner-infrastructure_test.iml" group="ocomis-partner-infrastructure" />
     </modules>
   </component>
 </project>

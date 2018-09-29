@@ -1,4 +1,5 @@
 rootProject.name = 'ocomis-partner'
 include 'ocomis-partner-api'
 include 'ocomis-partner-domain'
+include 'ocomis-partner-infrastructure'
 

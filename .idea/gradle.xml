@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ocomis-partner-api" />
             <option value="$PROJECT_DIR$/ocomis-partner-domain" />
+            <option value="$PROJECT_DIR$/ocomis-partner-infrastructure" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,15 @@
+group 'com.ocomis.partner'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":ocomis-partner-domain")
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
