@@ -14,6 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
+import static com.sun.org.apache.xerces.internal.util.PropertyState.is;
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
@@ -33,14 +34,28 @@ public class PartnerControllerTest {
     @Test
     public void createPartnerAcceptsRequestAndReturnsPartnerId() throws Exception {
         mvc.perform(MockMvcRequestBuilders.post("/partners")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{ \"name\": \"robert\" }")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("id").isNotEmpty());
     }
 
     @Test
+    public void createPartnerRequestWithoutNameIsDenied() throws Exception {
+        mvc.perform(MockMvcRequestBuilders.post("/partners")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{ }")
+                .accept(MediaType.APPLICATION_JSON))
+                .andExpect(status().is4xxClientError())
+                .andExpect(jsonPath("message").value("The name was not specified."));
+    }
+
+    @Test
     public void createPartnerPublishesEvent() throws Exception {
         mvc.perform(MockMvcRequestBuilders.post("/partners")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{ \"name\": \"robert\" }")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk());
 
